@@ -1,7 +1,7 @@
 <?php require_once VIEWS."web/inc/header.php"?>
 
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(<?php w_assets('images/background/3.jpg')?>);">
+<section class="page-title text-center" style="background-image:url(<?php assets('web/images/background/3.jpg')?>);">
     <div class="container">
         <div class="title-text">
             <h1>about us</h1>
@@ -21,7 +21,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <img loading="lazy" src="<?php w_assets('images/about/1.jpg')?>" class="responsive" alt="story">
+        <img loading="lazy" src="<?php assets('web/images/about/1.jpg')?>" class="responsive" alt="story">
       </div>
       <div class="col-lg-6">
         <div class="story-content">

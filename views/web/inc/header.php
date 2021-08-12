@@ -16,26 +16,26 @@
 
     <!-- ** Plugins Needed for the Project ** -->
     <!-- bootstrap -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/bootstrap/bootstrap.min.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/bootstrap/bootstrap.min.css');?>">
     <!-- Slick Carousel -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/slick/slick.css');?>">
-    <link rel="stylesheet" href="<?php w_assets('plugins/slick/slick-theme.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/slick/slick.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/slick/slick-theme.css');?>">
     <!-- FancyBox -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/fancybox/jquery.fancybox.min.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/fancybox/jquery.fancybox.min.css');?>">
     <!-- fontawesome -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/fontawesome/css/all.min.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/fontawesome/css/all.min.css');?>">
     <!-- animate.css -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/animation/animate.min.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/animation/animate.min.css');?>">
     <!-- jquery-ui -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/jquery-ui/jquery-ui.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/jquery-ui/jquery-ui.css');?>">
     <!-- timePicker -->
-    <link rel="stylesheet" href="<?php w_assets('plugins/timePicker/timePicker.css');?>">
+    <link rel="stylesheet" href="<?php assets('web/plugins/timePicker/timePicker.css');?>">
 
     <!-- Stylesheets -->
-    <link href="<?php w_assets('css/style.css" rel="stylesheet');?>">
+    <link href="<?php assets('web/css/style.css" rel="stylesheet');?>">
 
     <!--Favicon-->
-    <link rel="icon" href="<?php w_assets('images/favicon.png');?>" type="image/x-icon">
+    <link rel="icon" href="<?php assets('web/images/favicon.png');?>" type="image/x-icon">
 
 </head>
 
@@ -92,7 +92,7 @@
                     <div class="col-xl-4 col-lg-3">
                         <div class="logo">
                             <a href="<?php url();?>">
-                                <img loading="lazy" class="img-fluid" src="<?php w_assets('images/logo.png');?>" alt="logo">
+                                <img loading="lazy" class="img-fluid" src="<?php assets('web/images/logo.png');?>" alt="logo">
                             </a>
                         </div>
                     </div>

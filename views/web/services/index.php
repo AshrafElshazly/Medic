@@ -1,7 +1,7 @@
 <?php require_once VIEWS."web/inc/header.php"?>
 
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(<?php w_assets('images/background/3.jpg'); ?>);">
+<section class="page-title text-center" style="background-image:url(<?php assets('web/images/background/3.jpg'); ?>);">
     <div class="container">
         <div class="title-text">
             <h1>service</h1>
@@ -136,7 +136,7 @@
             <div class="inner-box">
               <div class="img_holder">
                 <a href="<?php url('services') ?>">
-                  <img loading="lazy" src="<?php uploads('services/'.$service['img']); ?>" alt="images" class="img-fluid">
+                  <img loading="lazy" src="<?php uploads('web/services/'.$service['img']); ?>" alt="images" class="img-fluid">
                 </a>
               </div>
               <div class="image-content text-center">

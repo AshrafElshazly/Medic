@@ -3,7 +3,7 @@
 <!--====  Page Slider  ====-->
 <div class="hero-slider">
     <!-- Slider Item -->
-    <div class="slider-item slide1" style="background-image:url(<?php w_assets('images/slider/1.jpg');?>)">
+    <div class="slider-item slide1" style="background-image:url(<?php assets('web/images/slider/1.jpg');?>)">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -19,7 +19,7 @@
         </div>
     </div>
     <!-- Slider Item -->
-    <div class="slider-item" style="background-image:url(<?php w_assets('images/slider/2.jpg');?>);">
+    <div class="slider-item" style="background-image:url(<?php assets('web/images/slider/2.jpg');?>);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -35,7 +35,7 @@
         </div>
     </div>
     <!-- Slider Item -->
-    <div class="slider-item" style="background-image:url(<?php w_assets('images/slider/3.jpg');?>)">
+    <div class="slider-item" style="background-image:url(<?php assets('web/images/slider/3.jpg');?>)">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -99,7 +99,7 @@
                             <div class="item">
                                 <div class="icon-box">
                                     <figure>
-                                        <a href="services.php"><img loading="lazy" src="<?php uploads("features/".$feature['img']);?>" alt="features image"></a>
+                                        <a href="services.php"><img loading="lazy" src="<?php uploads('web/features/'.$feature['img']);?>" alt="features image"></a>
                                     </figure>
                                 </div>
                                 <h3 class="mb-2"><?= $feature['name'];?></h3>
@@ -129,7 +129,7 @@
         <?php foreach($doctors as $doctor):?>
             <div class="col-lg-4 col-md-6">
                 <div class="team-member">
-                    <img loading="lazy" src="<?php uploads('doctors/'.$doctor['img']);?>" alt="doctor" class="img-fluid">
+                    <img loading="lazy" src="<?php uploads('web/doctors/'.$doctor['img']);?>" alt="doctor" class="img-fluid">
                     <div class="contents text-center">
                         <h4>Dr. <?= $doctor['name'];?></h4>
                         <p> <?= $doctor['about'];?> </p>
@@ -144,7 +144,7 @@
 <!--End team section-->
 
 <!--Patients Says-section-->
-<section class="testimonial-section" style="background: url(<?php w_assets('images/background/1.jpg');?>);">
+<section class="testimonial-section" style="background: url(<?php assets('web/images/background/1.jpg');?>);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -164,7 +164,7 @@
                         <div class="inner-box text-center">
                             <div class="image-box">
                                 <figure>
-                                    <img loading="lazy" src="<?php uploads('patients/'.$feed_back['img']);?>" alt="">
+                                    <img loading="lazy" src="<?php uploads('web/patients/'.$feed_back['img']);?>" alt="">
                                 </figure>
                             </div>
                             <h6><?= $feed_back['name'];?></h6>

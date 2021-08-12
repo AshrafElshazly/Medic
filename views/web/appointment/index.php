@@ -1,7 +1,7 @@
 <?php require_once VIEWS."web/inc/header.php"?>
 
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(<?php w_assets('images/background/3.jpg'); ?>);">
+<section class="page-title text-center" style="background-image:url(<?php assets('web/images/background/3.jpg'); ?>);">
     <div class="container">
         <div class="title-text">
             <h1>appointment</h1>
@@ -73,7 +73,7 @@
       <div class="col-lg-6 mb-4 mb-lg-0 order-0 order-lg-1">
         <div class="appointment-image-holder ml-0 ml-lg-4">
           <figure>
-            <img loading="lazy" class="w-100" src="<?php w_assets('images/background/appoinment.jpg'); ?>" alt="Appointment">
+            <img loading="lazy" class="w-100" src="<?php assets('web/images/background/appoinment.jpg'); ?>" alt="Appointment">
           </figure>
         </div>
       </div>
@@ -96,7 +96,7 @@
         <?php foreach($doctors as $doctor): ?>
             <div class="col-lg-4 col-md-6">
                 <div class="team-member">
-                    <img loading="lazy" src="<?php uploads('doctors/'.$doctor['img']) ?>" alt="doctor" class="img-fluid">
+                    <img loading="lazy" src="<?php uploads('web/doctors/'.$doctor['img']) ?>" alt="doctor" class="img-fluid">
                     <div class="contents text-center">
                         <h4>Dr. <?= $doctor['name'] ?></h4>
                         <p> <?= $doctor['about']; ?> </p>

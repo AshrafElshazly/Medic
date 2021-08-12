@@ -9,7 +9,7 @@
                         <div class="footer-logo">
                             <figure>
                                 <a href="<?php url(); ?>">
-                                    <img loading="lazy" class="img-fluid" src="<?php w_assets('images/logo-2.png');?>" alt="medic">
+                                    <img loading="lazy" class="img-fluid" src="<?php assets('web/images/logo-2.png');?>" alt="medic">
                                 </a>
                             </figure>
                         </div>
@@ -71,7 +71,7 @@
                                 <div class="media">
                                     <div class="media-left mr-3">
                                         <a href="">
-                                            <img loading="lazy" src="<?php w_assets('images/post-thumb-small.jpg');?>" alt="post-thumb">
+                                            <img loading="lazy" src="<?php assets('web/images/post-thumb-small.jpg');?>" alt="post-thumb">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -84,7 +84,7 @@
                                 <div class="media">
                                     <div class="media-left mr-3">
                                         <a href="">
-                                            <img loading="lazy" src="<?php w_assets('images/post-thumb-small.jpg');?>" alt="post-thumb">
+                                            <img loading="lazy" src="<?php assets('web/images/post-thumb-small.jpg');?>" alt="post-thumb">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -136,25 +136,25 @@
 
 
 <!-- jquery -->
-<script src="<?php w_assets('plugins/jquery.min.js');?>"></script>
+<script src="<?php assets('web/plugins/jquery.min.js');?>"></script>
 <!-- bootstrap -->
-<script src="<?php w_assets('plugins/bootstrap/bootstrap.min.js');?>"></script>
+<script src="<?php assets('web/plugins/bootstrap/bootstrap.min.js');?>"></script>
 <!-- Slick Slider -->
-<script src="<?php w_assets('plugins/slick/slick.min.js');?>"></script>
-<script src="<?php w_assets('plugins/slick/slick-animation.min.js');?>"></script>
+<script src="<?php assets('web/plugins/slick/slick.min.js');?>"></script>
+<script src="<?php assets('web/plugins/slick/slick-animation.min.js');?>"></script>
 <!-- FancyBox -->
-<script src="<?php w_assets('plugins/fancybox/jquery.fancybox.min.js');?>" defer></script>
+<script src="<?php assets('web/plugins/fancybox/jquery.fancybox.min.js');?>" defer></script>
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
-<script src="<?php w_assets('plugins/google-map/gmap.js');?>" defer></script>
+<script src="<?php assets('web/plugins/google-map/gmap.js');?>" defer></script>
 
 <!-- jquery-ui -->
-<script src="<?php w_assets('plugins/jquery-ui/jquery-ui.js');?>" defer></script>
+<script src="<?php assets('web/plugins/jquery-ui/jquery-ui.js');?>" defer></script>
 <!-- timePicker -->
-<script src="<?php w_assets('plugins/timePicker/timePicker.js');?>" defer></script>
+<script src="<?php assets('web/plugins/timePicker/timePicker.js');?>" defer></script>
 
 <!-- script js -->
-<script src="<?php w_assets('js/script.js');?>"></script>
+<script src="<?php assets('web/js/script.js');?>"></script>
 </body>
 
 </html>

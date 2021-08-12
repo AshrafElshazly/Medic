@@ -1,7 +1,7 @@
 <?php require_once VIEWS."web/inc/header.php"?>
 
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(<?php w_assets('images/background/3.jpg'); ?>);">
+<section class="page-title text-center" style="background-image:url(<?php assets('web/images/background/3.jpg'); ?>);">
     <div class="container">
         <div class="title-text">
             <h1>gallery</h1>
@@ -32,7 +32,7 @@
     <?php foreach($shots as $shot): ?>
       <div class="col-lg-4 col-md-6">
         <div class="gallery-item">
-          <img loading="lazy" src="<?php uploads('shots/'.$shot['img']) ?>" class="img-fluid" alt="gallery-image">
+          <img loading="lazy" src="<?php uploads('web/shots/'.$shot['img']) ?>" class="img-fluid" alt="gallery-image">
           <a data-fancybox="images" href="images/gallery/gallery-01.jpg"></a>
           <h3><?= $shot['name'] ?></h3>
           <p><?= $shot['description'] ?></p>
